@@ -5,11 +5,11 @@ There is a good number of tutorials and code samples for MacOS out there. Those 
 ## Development environment
 
 I have been expanding and testing this code with the following setup:
- - MacOS Catalina 10.15.3
- - Glfw3: 3.3.2
- - Glew: 2.1.0_1
+ - MacOS Sonoma 14.2.1
+ - Glfw3: 3.3.9
+ - Glew: 2.2.0_1
  - OpenGL: 4.1
- - Apple clang version: 11.0.0
+ - Apple clang version: 14.2.1
 
 With that said, this code should be supported with OpenGL greater than 3.3 (including). Just make sure that `GLFW_CONTEXT_VERSION_MAJOR`, `GLFW_CONTEXT_VERSION_MINOR` and shaders are updated accordingly.
 
@@ -29,7 +29,7 @@ brew install glfw3 glew
 
 The following command is enough to generate a binary from the source code file:
 ```
-clang -o main main.cpp -L/usr/local/lib -lglfw -framework OpenGL
+clang -o main main.cpp -I$(brew --prefix)/include -L$(brew --prefix)/lib -lglfw -framework OpenGL
 ```
 
 **Note** that different from GNU/Linux distros, MacOS has OpenGL added as a framework.
