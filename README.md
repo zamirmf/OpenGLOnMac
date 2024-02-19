@@ -7,7 +7,6 @@ There is a good number of tutorials and code samples for MacOS out there. Those 
 I have been expanding and testing this code with the following setup:
  - MacOS Sonoma 14.2.1
  - Glfw3: 3.3.9
- - Glew: 2.2.0_1
  - OpenGL: 4.1
  - Apple clang version: 14.2.1
 
@@ -22,7 +21,7 @@ The easiest way to install Glfw and Glew is through Homebrew. In case you don't 
 After that, glfw3 and glew can be installed with the following:
 ```
 brew update
-brew install glfw3 glew
+brew install glfw3
 ```
 
 ### Building the sample code
