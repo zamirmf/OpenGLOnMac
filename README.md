@@ -45,4 +45,4 @@ Apart from the official documentation ([OpenGL.org](https://www.opengl.org/) and
 
  - https://learnopengl.com: As an old timer I was very surprised with the quality of this tutorial.
  - https://www.glfw.org/docs/latest/: It might be prudent to get somehow familiar with the basics of GLFW.
-
+ - https://docs.gl/: OpenGL API documentation.
